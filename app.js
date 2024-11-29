@@ -15,3 +15,7 @@ app.use('/user',user);
 
 const PORT=process.env.PORT;
 app.listen(PORT,()=>console.log(`PORT ${PORT}`))
+// mongoose
+//     .connect('mongodb://localhost:27017')
+//     .then(res=>app.listen(3000))
+//     .catch(err=>console.log('err'));
